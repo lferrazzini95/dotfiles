@@ -1,4 +1,5 @@
 return {
   'rmehri01/onenord.nvim',
-  branch = 'main',
+  version = 'v0.7.0',
+  -- branch = 'main',
 }
