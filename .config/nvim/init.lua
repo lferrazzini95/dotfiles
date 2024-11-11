@@ -1,7 +1,7 @@
 require("config.lazy")
 
 -- Set leader key to space
-vim.g.mapleader = " "  -- Sets <Space> as the leader key
+vim.g.mapleader = " " -- Sets <Space> as the leader key
 
 -- Set tab settings
 vim.opt.tabstop = 2
@@ -12,6 +12,8 @@ vim.opt.expandtab = true
 vim.o.number = true
 -- vim.o.relativenumber = true
 
+-- Set clipboard options
+vim.opt.clipboard = "unnamedplus"
+
 -- Set color scheme
 vim.cmd.colorscheme('onenord')
-
